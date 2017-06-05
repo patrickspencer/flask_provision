@@ -1,7 +1,7 @@
 ---
 
 - name: Provision a {{ application_name }} web server
-  hosts: tag_Name_insight
+  hosts: tag_Name_insight_project
   become: yes
   become_user: ubuntu
   remote_user: ubuntu

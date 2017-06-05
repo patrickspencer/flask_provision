@@ -8,9 +8,9 @@ env.hosts = [config.get('env', 'hosts')]
 env.user  = config.get('env', 'user')
 
 def gitpull():
-    with cd("/home/ubuntu/okapi"):
+    with cd("/var/styelend"):
         run('git pull')
 
 def collectstatic():
-    with cd("/home/ubuntu/okapi"):
+    with cd("/var/stylelend"):
         run('python manage.py collectstatic')

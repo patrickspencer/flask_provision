@@ -1,3 +1,0 @@
-- hosts: tag_insight
-  tasks:
-    - ping

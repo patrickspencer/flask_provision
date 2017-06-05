@@ -2,9 +2,9 @@
   connection: local
   gather_facts: false
   vars:
-      keypair: "keypair_name"
-      group: "group_name"
-      instance_tag: "tag_name"
+      keypair: "insight_stylelend_key"
+      group: "simple-group-1"
+      instance_tag: "insight_project"
   tasks:
     - name: make one instance
       ec2:
